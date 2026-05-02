@@ -1,45 +1,69 @@
 # QA Portfolio
-# Maksym Shutko
+## Maksym Shutko
 
-## 👋 About Me
-I am a Manual/Automation QA Engineer with 4.5 years of experience testing desktop applications.  
-My expertise includes:
-- Test automation with **Robot Framework** (UI, API, integration tests).
-- Writing and maintaining **manual test cases**.
-- Working with CI/CD pipelines.
-- Using performance testing tools (JMeter, Locust).
+### 👋 About Me
+I am a Manual and Automation QA Engineer with 4.5 years of experience testing desktop applications. My expertise includes:
 
-Currently, I am seeking new opportunities and created this repository to showcase my skills.
+- **Test Automation** — Robot Framework for UI, API, and integration tests
+- **Manual Test Cases** — Writing and maintaining comprehensive test documentation
+- **CI/CD Pipelines** — Integration and automation of testing workflows
+- **Performance Testing** — JMeter and Locust for load and stress testing
+
+I am actively seeking new opportunities and created this portfolio to demonstrate my QA skills and experience.
 
 ---
 
 ## 📂 Repository Structure
-- `robot-tests/` — examples of automated tests:
-  - `ui-tests/` — UI tests using SeleniumLibrary.
-  - `api-tests/` — API tests using RequestsLibrary.
-- `manual-test-cases/` — examples of manual test cases in Markdown format.
-- `test-data/` — test data for running scenarios.
-- `.github/workflows/` — CI/CD configurations for automated test execution.
+
+```
+qa-portfolio/
+├── robot-tests/              — Automated test examples
+│   ├── ui-tests/            — UI tests using SeleniumLibrary
+│   └── api-tests/           — API tests using RequestsLibrary
+├── manual-test-cases/        — Manual test case examples (Markdown format)
+├── test-data/               — Test data and test scenarios
+├── .github/workflows/        — CI/CD configuration for test execution
+└── README.md                 — This file
+```
 
 ---
 
-## 🚀 How to Run Tests
-1. Install [Robot Framework](https://robotframework.org/).
-2. Install required libraries:
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.7+
+- Robot Framework
+
+### Installation
+
+1. Clone the repository:
    ```bash
-   pip install robotframework-seleniumlibrary robotframework-requests
+   git clone https://github.com/maksymshutko/qa-portfolio.git
+   cd qa-portfolio
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install robotframework robotframework-seleniumlibrary robotframework-requests
+   ```
+
+3. Run tests:
+   ```bash
+   robot robot-tests/
+   ```
 
 ---
 
-##📌 What You’ll Find Here
-- Examples of automated tests (UI, API).
-- Examples of manual test cases.
-- Demonstration of CI/CD integration.
-- Documentation and sample bug reports.
+## 📌 Portfolio Highlights
+
+- **Automated Tests** — UI and API test examples with Robot Framework
+- **Manual Test Cases** — Detailed test case documentation and scenarios
+- **CI/CD Integration** — GitHub Actions workflows for continuous testing
+- **Documentation** — Sample bug reports and test documentation
 
 ---
 
-## 📫 Contact
-LinkedIn: [Maksym Shutko](https://www.linkedin.com/in/maksym-shutko-53baa2217/)
-Email: maksimshutko5@gmail.com
+## 📫 Get in Touch
 
+- **LinkedIn:** [Maksym Shutko](https://www.linkedin.com/in/maksym-shutko-53baa2217/)
+- **Email:** maksimshutko5@gmail.com
