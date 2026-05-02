@@ -29,3 +29,15 @@ Currently, I am seeking new opportunities and created this repository to showcas
    ```bash
    pip install robotframework-seleniumlibrary robotframework-requests
 
+---
+📌 What You’ll Find Here
+- Examples of automated tests (UI, API).
+- Examples of manual test cases.
+- Demonstration of CI/CD integration.
+- Documentation and sample bug reports.
+---
+📫 Contact
+LinkedIn: [Maksym Shutko](https://www.linkedin.com/in/maksym-shutko-53baa2217/)
+
+Email: [maksimshutko5@gmail.com]
+
