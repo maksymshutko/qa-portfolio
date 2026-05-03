@@ -20,8 +20,7 @@ qa-portfolio/
 ├── robot-tests/              — Automated test examples
 │   ├── ui-tests/            — UI tests using SeleniumLibrary
 │   └── api-tests/           — API tests using RequestsLibrary
-├── manual-test-cases/        — Manual test case examples (Markdown format)
-├── test-data/               — Test data and test scenarios
+├── manual-test-documentation/        — Test documentation examples (Markdown format)
 ├── .github/workflows/        — CI/CD configuration for test execution
 └── README.md                 — This file
 ```
